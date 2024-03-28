@@ -123,4 +123,13 @@ class LaptopController extends Controller
 
         return redirect()->route('laptops.index')->with(['success' => 'Data Berhasil Dihapus!']);
     }
+
+    public function home(): View
+    {
+        //get posts
+        $laptops = Laptop::latest()->paginate(8);
+
+        //render view with posts
+        return view('laptops.home', compact('laptops'));
+    }
 }

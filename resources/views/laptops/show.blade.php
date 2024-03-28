@@ -22,7 +22,7 @@
                             {!! $laptop->deskripsi !!}
                         </p>
 
-                        <a href="{{ route('laptops.index') }}" class="btn btn-md btn-danger">KEMBALI</a>
+                        <a href="/" class="btn btn-md btn-danger">KEMBALI</a>
                     </div>
                 </div>
             </div>
