@@ -14,9 +14,9 @@
             <div class="col-md-8">
                 <div class="card border-0 shadow-sm rounded">
                     <div class="card-body">
+                        <h3 style="font-weight: bolder">{{ $laptop->nama_produk }}</h3>
                         <img src="{{ asset('storage/laptops/'.$laptop->image) }}" class="w-100 rounded">
                         <hr>
-                        <h4 style="font-weight: bolder">{{ $laptop->nama_produk }}</h4>
                         <h4>Rp. {{ number_format($laptop->harga) }}</h4>
                         <p class="tmt-3">
                             {!! $laptop->deskripsi !!}

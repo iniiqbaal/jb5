@@ -39,7 +39,7 @@
                             </div>
                         @empty
                             <div class="alert alert-danger">
-                                Wallpaper Tidak Tersedia.
+                                Produk Tidak Tersedia.
                             </div>
                         @endforelse
                     </div>
