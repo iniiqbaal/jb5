@@ -16,8 +16,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <h1 class="text-center my-4" style="color: #47b5ff; font-weight: bolder"><a
-                            href="/">RYSTORE</a></h1>
+                    <h1 class="text-center my-4" style="font-weight: bolder"><a href="/"
+                            style="color: #47b5ff; text-decoration: none;" title="Ke halaman Home">RYSTORE</a></h1>
                     <hr>
                 </div>
                 <div class="card border-0 shadow-sm rounded">

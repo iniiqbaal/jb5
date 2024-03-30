@@ -25,7 +25,7 @@
                             <div class="card">
                                 <a href="{{ route('laptops.show', $laptop->id) }}">
                                     <div class="image">
-                                        <img width="250px" height="200px"
+                                        <img width="250px" height="250px"
                                             src="{{ asset('storage/laptops/' . $laptop->image) }}" alt="Gambar Laptop">
                                     </div>
                                 </a>
